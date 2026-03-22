@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/eminsecurity-portfolio/static/css/main.c304c446.css",
+    "main.js": "/eminsecurity-portfolio/static/js/main.92291b39.js",
+    "index.html": "/eminsecurity-portfolio/index.html",
+    "main.c304c446.css.map": "/eminsecurity-portfolio/static/css/main.c304c446.css.map",
+    "main.92291b39.js.map": "/eminsecurity-portfolio/static/js/main.92291b39.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c304c446.css",
+    "static/js/main.92291b39.js"
+  ]
+}
