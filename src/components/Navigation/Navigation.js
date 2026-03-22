@@ -40,13 +40,13 @@ function Navigation() {
   return (
     <nav className={`navigation ${isScrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
-        <!-- Logo -->
+        {/* Logo */}
         <div className="nav-logo" onClick={() => scrollToSection('hero')}>
           <Shield className="logo-icon" size={28} />
           <span className="logo-text">EminSecurity</span>
         </div>
 
-        <!-- Desktop Navigation -->
+        {/* Desktop Navigation */}
         <ul className="nav-links">
           {navLinks.map((link) => (
             <li key={link.id}>
@@ -60,7 +60,7 @@ function Navigation() {
           ))}
         </ul>
 
-        <!-- Mobile Menu Button -->
+        {/* Mobile Menu Button */}
         <button 
           className="mobile-menu-btn"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -69,7 +69,7 @@ function Navigation() {
         </button>
       </div>
 
-      <!-- Mobile Menu -->
+      {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <div className="mobile-menu">
           {navLinks.map((link) => (
